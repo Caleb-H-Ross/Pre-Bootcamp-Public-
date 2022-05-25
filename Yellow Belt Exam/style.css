@@ -1,0 +1,207 @@
+body {
+    padding: 35px;
+}
+
+.container {
+    display: inline-block;
+    width: 1080px;
+    margin: 0 auto;
+    display: block;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: large;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 5px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    border-bottom: 5px solid black;
+    font-size: large;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon-nav {
+    background-color: #2ec4b6;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.icons {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+
+.icon-s {
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.icon-text {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+form {
+    background-color: white;
+    width: 700px;
+    height: 44px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    font-size: larger;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 4px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 42px;
+}
+
+
+
+.discover {
+    color: white;
+    font-family: sans-serif;
+    padding: 30px;
+    text-align: center;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1px;
+}
+
+.arrow {
+    height: 45px;
+}
+
+.row-1 {
+    display: flex;
+}
+
+.col-left {
+    display: flex;
+    width: 1080px;
+}
+
+
+.sub-content {
+    height: 325px;
+    width: 360px;
+    background-color: #2ec4b6;
+}
+
+
+.sub-content-2 {
+    margin-left: 30px;
+}
+
+.soothing-aloe {
+    height: 80px;
+    margin-top: 25px;
+    background-color: #2ec4b6;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-2 {
+    display: flex;
+    margin: 0px auto;
+}
+
+.bottom-box {
+    display: flex;
+}
+
+.plant-box {
+    width: 1080px;
+    height: 260px;
+    background-color: #cbf3f0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.plant-pictures {
+    border-radius: 50%;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.plant-names {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.button {
+    border: 2px solid black;
+    width: 1080px;
+    margin: 0 auto;
+    height: 125px;
+    display: flex;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert-icon {
+    height: 65px;
+    padding: 25px;
+}
+
+.alert-texts {
+    font-weight: 400;
+}
+
+.accept {
+    background-color: #2ec4b6;
+    color: white;
+    padding: 8px 30px;
+    margin: 0px 20px;
+    font-size: large;
+    white-space: nowrap;
+    border: 3px solid black;
+    box-shadow: 10px 7px 5px black;
+}
